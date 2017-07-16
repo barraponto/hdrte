@@ -15,6 +15,7 @@
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
     "neutrino": "^6.1.4",
+    "neutrino-preset-cssnext": "^2.0.0-rc.1",
     "neutrino-preset-eslint-google": "next",
     "neutrino-preset-stylelint-standard": "next",
     "neutrino-preset-vue": "next",
