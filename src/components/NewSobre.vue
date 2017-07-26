@@ -114,11 +114,13 @@
 <style>
   section.new-sobre {
     font-family: Helvetica, Arial, "Nimbus Sans", sans-serif;
-    font-size: 1.2em;
+    line-height: 1.4em;
     order: 1;
 
     & .highlight {
+      font-family: Georgia, serif;
       font-size: 1.4em;
+      line-height: 1.2em;
       color: #ed1c24;
     }
   }
