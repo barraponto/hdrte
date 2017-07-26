@@ -50,6 +50,16 @@
       & a {
         text-decoration: none;
         text-transform: uppercase;
+        color: black;
+
+        &:visited {
+          color: black;
+        }
+
+        &:hover,
+        &:active {
+          color: #ed1c24;
+        }
 
         &:nth-of-type(1) { order: 1; }
         &:nth-of-type(2) { order: 2; }
