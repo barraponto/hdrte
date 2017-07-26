@@ -32,11 +32,13 @@
     pró-cultura formada por Laura Maringoni, Marcela Amaral e Monica Novaes
     Esmanhotto.</p>
 
-    <p class="highlight">A pesquisa teve início com a listagem, em formato de tabela, de todos os
+    <p>A pesquisa teve início com a listagem, em formato de tabela, de todos os
     artistas encontrados nos 11 livros de História da Arte e as seguintes
     informações: anos de nascimento e morte; onde nasceu, trabalhou e morreu;
     gênero; raça; técnica principal utilizada. A partir da análise desses dados,
-    observou-se que de um total de 2.443 artistas, apenas 215 são mulheres, 22
+    observou-se que</p>
+
+    <p class="highlight">de um total de 2.443 artistas, apenas 215 são mulheres, 22
     são negras/negros e 645 são não europeus. Dos 645 não europeus, apenas 246
     são não estadunidenses. E 1.566 são pintores.</p>
 
@@ -106,22 +108,53 @@
     Rafael.</p>
 
     <p>Este projeto é apoiado e selecionado pelo Rumos Itaú Cultural
-    2015/2016.</p>
-    <p> Apoio Goethe Institut. </p>
+    2015/2016.<br/>Apoio Goethe Institut.</p>
+
+    <p class="sponsors">
+      <img src="../images/apoio01.png" alt="Lei de Incentivo à Cultura" />
+      <img src="../images/apoio02.png" alt="RUMOS Itaú Cultural" />
+      <img src="../images/apoio03.png" alt="Goethe Institut" />
+      <img src="../images/apoio04.png" alt="Ministério da Cultura" />
+    </p>
+
   </section>
 </template>
 
 <style>
   section.new-sobre {
+    max-width: 800px;
     font-family: Helvetica, Arial, "Nimbus Sans", sans-serif;
     line-height: 1.4em;
     order: 1;
 
+    & p {
+      margin: 1.4em 0;
+    }
+
+    & h2 {
+      font-size: 1em;
+      font-weight: normal;
+      margin-bottom: 0;
+    }
+
+    & h2 + p {
+      margin-top: 0;
+    }
+
     & .highlight {
       font-family: Georgia, serif;
+      font-weight: bold;
       font-size: 1.4em;
       line-height: 1.2em;
       color: #ed1c24;
+    }
+
+    & .sponsors {
+      display: flex;
+      justify-content: space-around;
+      align-content: center;
+      padding-bottom: 2em;
+      border-bottom: 1px solid black;
     }
   }
 </style>
