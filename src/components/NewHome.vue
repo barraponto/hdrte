@@ -10,7 +10,7 @@
 <template>
   <main class="new-home">
     <nav>
-      <router-link :to="{ name: 'Home' }">
+      <router-link :to="{ name: 'Sobre' }">
         <div>1. Sobre o projeto </div>
       </router-link>
       <router-link :to="{ name: 'Home' }">
@@ -31,6 +31,7 @@
       <router-link :to="{ name: 'Home' }">
         <div>7. Breve Estudo sobre Gombrich </div>
       </router-link>
+      <router-view></router-view>
     </nav>
     <h1>A HISTÓRIA DA _RTE</h1>
   </main>
@@ -44,9 +45,20 @@
     flex-direction: column;
 
     & nav {
+      display: flex;
+      flex-direction: column;
+
       & a {
         text-decoration: none;
         text-transform: uppercase;
+
+        &:nth-of-type(1) { order: 1; }
+        &:nth-of-type(2) { order: 2; }
+        &:nth-of-type(3) { order: 3; }
+        &:nth-of-type(4) { order: 4; }
+        &:nth-of-type(5) { order: 5; }
+        &:nth-of-type(6) { order: 6; }
+        &:nth-of-type(7) { order: 7; }
       }
     }
 
