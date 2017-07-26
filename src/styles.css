@@ -1,11 +1,19 @@
-html,
-body,
-#app {
-  height: 100%;
-}
-
 body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  background: url('./images/title-mobile.png') center/90% no-repeat fixed;
+}
+
+@media only screen and (min-width: 720px) {
+  body {
+    background: url('./images/title-tablet.png') center/90% no-repeat fixed;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  body {
+    background: url('./images/title-desktop.png') center/90% no-repeat fixed;
+    width: 1024px;
+  }
 }

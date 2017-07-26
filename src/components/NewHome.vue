@@ -33,7 +33,6 @@
       </router-link>
       <router-view></router-view>
     </nav>
-    <h1>A HISTÓRIA DA _RTE</h1>
   </main>
 </template>
 
