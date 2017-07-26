@@ -79,6 +79,7 @@
 
     <p>Boa visita!</p>
 
+    <aside>
     <h2>EXPEDIENTE</h2>
 
     <p>
@@ -116,7 +117,7 @@
       <img src="../images/apoio03.png" alt="Goethe Institut" />
       <img src="../images/apoio04.png" alt="Ministério da Cultura" />
     </p>
-
+  </aside>
   </section>
 </template>
 
@@ -155,6 +156,10 @@
       align-content: center;
       padding-bottom: 2em;
       border-bottom: 1px solid black;
+    }
+
+    & aside {
+      font-size: 0.8em;
     }
   }
 </style>
