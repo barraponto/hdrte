@@ -123,7 +123,7 @@
 
 <style>
   section.sobre {
-    max-width: 800px;
+    max-width: 640px;
     font-family: Helvetica, Arial, "Nimbus Sans", sans-serif;
     line-height: 1.4em;
     order: 1;
