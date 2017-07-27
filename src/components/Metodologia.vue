@@ -10,9 +10,9 @@
 <template>
   <section class="tabelas">
     <nav>
-      <router-link :to="{ name: 'Links' }">
+      <router-link :to="{ name: 'Tabelas' }">
         <div>
-          1. Tabelas
+          1. Lista de links
           <span class="subtitle">
             Tabelas com informações de todos os 11 livros
           </span>
@@ -28,7 +28,7 @@
         </div>
       </router-link>
 
-      <router-link :to="{ name: 'Processos' }">
+      <router-link :to="{ name: 'Relato' }">
         <div>
           3. Processos: Pesquisa e organização de dados<br />
           <span class="subtitle">

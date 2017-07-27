@@ -68,6 +68,11 @@
         &:nth-of-type(5) { order: 5; }
         &:nth-of-type(6) { order: 6; }
         &:nth-of-type(7) { order: 7; }
+        &:nth-of-type(8) { order: 8; }
+        &:nth-of-type(9) { order: 9; }
+        &:nth-of-type(10) { order: 10; }
+        &:nth-of-type(11) { order: 11; }
+        &:nth-of-type(12) { order: 12; }
       }
     }
 
