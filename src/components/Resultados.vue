@@ -1,6 +1,6 @@
 <script>
   export default {
-    name: 'NewSobre',
+    name: 'Resultados',
     data() {
       return {};
     },

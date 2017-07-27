@@ -1,6 +1,6 @@
 <script>
   export default {
-    name: 'NewHome',
+    name: 'Home',
     data() {
       return {};
     },

@@ -1,6 +1,6 @@
 <script>
   export default {
-    name: 'NewSobre',
+    name: 'Tabelas',
     data() {
       return {};
     },
